@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-// Function to check if a number is part of the Fibonacci series
 int isFibonacci(int num)
 {
     int t1 = 0, t2 = 1, nextTerm;
@@ -22,7 +20,7 @@ int isFibonacci(int num)
 int main()
 {
     int num;
-    printf("Enter a number: ");
+    printf("Enter the 1st number: ");
     scanf("%d", &num);
 
     if (isFibonacci(num)==1)
